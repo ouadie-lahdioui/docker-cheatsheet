@@ -1,5 +1,5 @@
 # Docker recipes
-> Allo Aloo, welcome to Botkit, ladies and gentlemen !
+> Useful tips and tricks for getting started with Docker that makes creating and managing Linux containers really easy
 
 <p align="center">
 	<img src="assets/docker-logo.png">
@@ -7,8 +7,7 @@
 
 ## Features
 
-- Scaffolds a bot using [Botkit](https://github.com/howdyai/botkit)
-- Deploy it to Heroku
+- TODO
 
 
 ## Installation
