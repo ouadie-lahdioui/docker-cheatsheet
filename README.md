@@ -5,17 +5,32 @@
 	<img src="assets/docker-logo.png">
 </p>
 
-## Features
-
+## Docker CLI basics
 - TODO
 
+## Launching a container
+- TODO
 
-## Installation
+## Committing a container
+- TODO   
 
-## Next Steps
+## Keeping the container running
+- TODO   
+
+## Dockerfile
+- TODO
+
+## Using the Docker registry
+- TODO
+
+## Webapps with Docker
+- TODO   
+
+## ChatBots with Docker
+- TODO   
 
 
 ## License
 
-- This project is licensed under the terms of the MIT license and developed with love by [Ouadie LAHDIOUI](www.twitter.com/lahdiouiouadie)
+- This project is licensed under the terms of the MIT license and developed with &#9829; by [Ouadie LAHDIOUI](www.twitter.com/lahdiouiouadie)
 - Feel free to make PRs, if there's anything you feel we could do better
