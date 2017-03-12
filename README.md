@@ -1,5 +1,5 @@
 # Docker recipes
-> Useful tips and tricks for getting started with Docker that makes creating and managing Linux containers really easy
+> Useful tips & tricks for getting started with Docker to Build + Ship + Run your App Anywhere !
 
 <p align="center">
 	<img src="assets/docker-logo.png">
@@ -33,4 +33,3 @@
 ## License
 
 - This project is licensed under the terms of the MIT license and developed with &#9829; by [Ouadie LAHDIOUI](www.twitter.com/lahdiouiouadie)
-- Feel free to make PRs, if there's anything you feel we could do better
