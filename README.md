@@ -8,6 +8,9 @@
 ## Docker CLI basics
 - TODO
 
+## Docker architecture
+- TODO
+
 ## Launching a container
 - TODO
 
@@ -32,4 +35,5 @@
 
 ## License
 
-- This project is licensed under the terms of the MIT license and developed with &#9829; by [Ouadie LAHDIOUI](www.twitter.com/lahdiouiouadie)
+- This project is licensed under the terms of the MIT license
+- With &#9829; by [Ouadie LAHDIOUI](www.twitter.com/lahdiouiouadie)
