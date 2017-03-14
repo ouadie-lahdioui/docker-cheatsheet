@@ -2,7 +2,7 @@
 > Useful tips & tricks to learn build and deploy your distributed applications easily to the cloud with Docker !
 
 - Want to improve this cheat sheet ? your PRs are welcome
-- With :heart: by [Ouadie LAHDIOUI](www.twitter.com/lahdiouiouadie)
+- With :heart: by [Ouadie LAHDIOUI](http://www.twitter.com/lahdiouiouadie)
 
 <p align="center">
 	<img src="assets/docker-logo.png">

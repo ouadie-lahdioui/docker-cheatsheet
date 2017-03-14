@@ -16,4 +16,4 @@ npm-debug.log*
 .env
 
 # Intellij IDE config folder
-.idea
+.idea/
