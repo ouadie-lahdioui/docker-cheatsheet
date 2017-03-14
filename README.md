@@ -1,10 +1,10 @@
 # Docker cheat sheet ❯ https://goo.gl/uRWLFS
 > Useful tips & tricks to learn build and deploy your distributed applications easily to the cloud with Docker !
 
-- Want to improve this cheat sheet ? your PRs are welcome
-- With &#9829; by [Ouadie LAHDIOUI](www.twitter.com/lahdiouiouadie)
-
 <p align="center">
+Want to improve this cheat sheet :exclamation::question: your PRs are welcome :sunglasses:
+With &#9829; by [Ouadie LAHDIOUI](www.twitter.com/lahdiouiouadie)
+
 	<img src="assets/docker-logo.png">
 </p>
 
