@@ -2,17 +2,10 @@
 > Useful tips & tricks to learn build and deploy your distributed applications easily to the cloud with Docker !
 
 <p align="center">
-    
-    Want to improve this cheat sheet :exclamation::exclamation: your PRs are welcome :sunglasses:
+##### Want to improve this cheat sheet :exclamation::exclamation: your PRs are welcome :sunglasses:
+##### With :heart: by [Ouadie LAHDIOUI](www.twitter.com/lahdiouiouadie)
 
-    
-    
-    With :heart: by [Ouadie LAHDIOUI](www.twitter.com/lahdiouiouadie)
-    
-    
-    
-    <img src="assets/docker-logo.png">
-	
+	<img src="assets/docker-logo.png">
 </p>
 
 ## Install Docker
