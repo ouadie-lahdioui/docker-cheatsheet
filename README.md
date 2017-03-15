@@ -5,7 +5,7 @@
 - With :heart: by [Ouadie LAHDIOUI](http://www.twitter.com/lahdiouiouadie)
 
 <p align="center">
-	<a href="" target="_blank">
+	<a href="http://www.twitter.com/lahdiouiouadie" target="_blank">
 	    <img src="assets/talk-splash-screen.png">
 	</a>
 </p>
