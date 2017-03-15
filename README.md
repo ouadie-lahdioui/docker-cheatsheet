@@ -17,6 +17,7 @@
 ```
 docker version
 docker -v
+docker info
 ```
 
 ## Docker CLI basics
@@ -68,9 +69,10 @@ docker -v
 ## Using Docker Hub
 - [Sign up for an account](https://hub.docker.com/register/)
 - Add a new repository, for example : https://hub.docker.com/r/ouadie/docker-cheatsheet
-- Tag your docker image using : ```docker tag <IMAGE_ID> ouadie/docker-cheatsheet:latest|v1.0```
-- Log in : ```docker login```
-- Push your image : ```docker push ouadie/docker-cheatsheet```
+- ```docker tag <IMAGE_ID> ouadie/docker-cheatsheet:latest|v1.0``` Tag your docker image using
+- ```docker login``` Log in 
+- ```docker push ouadie/docker-cheatsheet``` Push your image 
+- ```docker search tomcat``` Search for an image 
   
   
 ## Dockerfile
