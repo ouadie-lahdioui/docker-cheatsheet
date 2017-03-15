@@ -5,13 +5,9 @@
 - With :heart: by [Ouadie LAHDIOUI](http://www.twitter.com/lahdiouiouadie)
 
 <p align="center">
-	<img src="assets/docker-logo.png">
-</p>
-
-## Slides
-
-<p align="center">
-    <img src="assets/talk-splash-screen.png">
+	<a href="" target="_blank">
+	    <img src="assets/talk-splash-screen.png">
+	</a>
 </p>
 
 ## Install Docker
