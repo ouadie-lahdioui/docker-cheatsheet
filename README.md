@@ -8,11 +8,10 @@
 	<img src="assets/docker-logo.png">
 </p>
 
-	[![Slides](assets/talk-splash-screen.png)](http://www.twitter.com/lahdiouiouadie)
 ## Slides
 
 <p align="center">
-[![Alt text for your video](https://img.youtube.com/vi/T-D1KVIuvjA/0.jpg)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
+    <img src="assets/talk-splash-screen.png">
 </p>
 
 ## Install Docker
