@@ -20,20 +20,21 @@ docker -v
 ```
 
 ## Docker CLI basics
-- ```docker images``` : See a list of all images on your system
 - ```docker ps``` Shows all containers that are currently running
 - ```docker ps -a``` Shows all containers
+- ```docker images``` : See a list of all images on your system
 - ```docker rm <CONTAINER_ID> <CONTAINER_ID>``` Remove containers by id
-- ```docker rmi``` Remove images
+- ```docker rmi <IMAGES_ID> <IMAGES_ID>``` Remove images
 
 ## Launching a container
-- ```docker start mydb``` Restart a stopped container
-- ```docker stop mydb``` Stop a container
 - ```docker run [options] [image] [process]```
-- ```docker pull busybox``` Fetches the busybox image from the Docker registry and saves it to your system
+- ```docker run hello-world``` Verify your system
 - ```docker run busybox``` Run a Docker container based on an image
 - ```docker run busybox echo "hello from busybox"```  Run an empty command and then exit
-- ```docker run --rm ubuntu bash``` Start a container automatically removed on stop
+- ```docker run --rm busybox echo "hello from busybox"``` Start a container automatically removed on stop
+- ```docker pull busybox``` Fetches the busybox image from the Docker registry and saves it to your system
+- ```docker start <CONTAINER_ID>``` Restart a stopped container
+- ```docker stop <CONTAINER_ID>``` Stop a container
 
 ## Run the container in interactive mode
 - ```docker run -it busybox sh``` Run a container in interactive mode (type exit to close)
@@ -64,9 +65,14 @@ docker -v
 ## Linking Containers
 - TODO
 
-## Using the Docker registry
-- TODO
-
+## Using Docker Hub
+- [Sign up for an account](https://hub.docker.com/register/)
+- Add a new repository, for example : https://hub.docker.com/r/ouadie/docker-cheatsheet
+- Tag your docker image using : ```docker tag <IMAGE_ID> ouadie/docker-cheatsheet:latest|v1.0```
+- Log in : ```docker login```
+- Push your image : ```docker push ouadie/docker-cheatsheet```
+  
+  
 ## Dockerfile
 - TODO
 
