@@ -11,7 +11,7 @@
 ## Slides
 
 <p align="center">
-	<img src="assets/talk-splash-screen.png">
+	[![Slides](assets/talk-splash-screen.png)](http://www.twitter.com/lahdiouiouadie)
 </p>
 
 ## Install Docker
