@@ -76,7 +76,24 @@ docker info
   
   
 ## Dockerfile
-- TODO
+Dockerfile allows developers to build Docker images automatically. It contains a list of commands. 
+
+It has the format : 
+- ```INSTRUCTION arguments``` INSTRUCTION is not case-sensitive but convention says it ought to be uppercase to be easily distinguished from arguments. 
+
+Main commands : 
+- ```FROM imageName[:version]``` imageName is the name of the Docker Image in [docker hub](https://hub.docker.com/). If the version is not specified, Docker takes the latest. 
+- ```MAINTAINER creator``` Information about the creator of the image. (deprecated)
+- ```COPY <src> <dest>``` This command copies files or directories from ```src``` to the filesystem of the container at ```dest```. If all files should be copied, _src_ can be : "."
+- ```RUN <command> ``` or ```RUN ["exec", "param1", "param2"]``` Commands are in shell form or exec form.
+- ```CMD <command>``` Commands in RUN are also in shell and exec form. In a Dockerfile, only one CMD instruction should be written, otherwise, only the last one will taken into consideration. It is the process to execute. 
+- ```EXPOSE <port> [<port> ...]``` At runtime, the container will listen on the specified ports. 
+- ```ENV <key> <value>``` ENV sets the environement variable ```key``` to the value ```value```. 
+
+Build : 
+- ```docker build -t appName .``` Build Docker image using the Dockerfile in the root of the context. 
+- ```docker build -f path/to/Dockerfile .``` Use ```-f``` to build a Docker image from anywhere in your file system.
+
 
 ## Webapps with Docker
 - TODO   
