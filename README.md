@@ -32,8 +32,8 @@ docker info
 - ```docker run hello-world``` Verify your system
 - ```docker run busybox``` Run a Docker container based on an image
 - ```docker run busybox echo "hello from busybox"```  Run an empty command and then exit
-- ```docker run --rm busybox echo "hello from busybox"``` Start a container automatically removed on stop
-- ```docker pull busybox``` Fetches the busybox image from the Docker registry and saves it to your system
+- ```docker run --rm <CONTAINER_ID>``` Start a container automatically removed on stop
+- ```docker pull <IMAGE_ID>``` Fetches the busybox image from the Docker registry and saves it to your system
 - ```docker start <CONTAINER_ID>``` Restart a stopped container
 - ```docker stop <CONTAINER_ID>``` Stop a container
 
@@ -42,7 +42,7 @@ docker info
 - ```docker run -t -i ubuntu /bin/bash``` launch an Ubuntu container and install what you want inside (Ex: apt-get update && apt-get install apache2) 
 
 ## Run the container in background 
-- ```docker run -d jenkins```
+- ```docker run -d <CONTAINER_ID>```
 
 ## Committing a container
 - ```docker commit <CONTAINER_ID> ouadie/busybox```   
@@ -93,11 +93,3 @@ Main commands :
 Build : 
 - ```docker build -t appName .``` Build Docker image using the Dockerfile in the root of the context. 
 - ```docker build -f path/to/Dockerfile .``` Use ```-f``` to build a Docker image from anywhere in your file system.
-
-
-## Webapps with Docker
-- TODO   
-
-## ChatBots with Docker
-- TODO   
-

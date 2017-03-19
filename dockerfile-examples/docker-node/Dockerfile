@@ -1,5 +1,5 @@
 FROM node
-
+MAINTAINER Ouadie LAHDIOUI
 # Create app directory
 RUN mkdir -p /app
 WORKDIR /app
