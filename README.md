@@ -59,12 +59,14 @@ docker info
 ## Network access to 80
 - ```docker run -d -p 80:80 coreos/apache /usr/sbin/apache2ctl -D FOREGROUND```
 
+## Go inside the container 
+- ```docker exec -it <CONTAINER_ID> /bin/bash```
+
+
 ## Using the Docker registry
 - ```docker push coreos/apache``` Push to the public registry    
 - ```docker push registry.example.com:5000/apache``` Push to a private registry    
 
-## Linking Containers
-- TODO
 
 ## Using Docker Hub
 - [Sign up for an account](https://hub.docker.com/register/)
@@ -91,5 +93,5 @@ Main commands :
 - ```ENV <key> <value>``` ENV sets the environement variable ```key``` to the value ```value```. 
 
 Build : 
-- ```docker build -t appName .``` Build Docker image using the Dockerfile in the root of the context. 
+```docker build -t appName .``` Build Docker image using the Dockerfile in the root of the context. 
 - ```docker build -f path/to/Dockerfile .``` Use ```-f``` to build a Docker image from anywhere in your file system.
