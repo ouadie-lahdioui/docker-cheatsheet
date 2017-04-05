@@ -6,7 +6,7 @@
 
 <p align="center">
 	<a href="https://goo.gl/uRWLFS" target="_blank">
-	    <img src="assets/talk-splash-screen.png">
+	    <img src="assets/splash-screen.png">
 	</a>
 </p>
 
